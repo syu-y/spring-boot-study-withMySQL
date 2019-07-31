@@ -13,6 +13,7 @@ Next, You need some Plugins.
 * Java Extension Pack
 * Spring Boot Extension Pack
 * Lombok Annotations Support for VS Code  
+
 Last, You will configure Java:Home.
 ### Step1
 You already have VScode and JDK installed and configured.  
