@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title> Hello Spring World! </title>
+</head>
+<body>
+    <h1>Hello Spring World!</h1>
+    <form method="POST" action="/hello">
+        Input any word : <input type="text" name="text1" th:value="${text1_value}" />
+        <input type="submit" value="click"/>
+    </form>
+    
+    <br>
+    
+    <form method="POST" action="/hello/db">
+        Input employee ID : <input type="text" name="text2" th:value="${text2_value}" />
+        <input type="submit" value="click"/>
+    </form>
+    
+</body>
+</html>
